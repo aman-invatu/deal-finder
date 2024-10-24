@@ -5,7 +5,8 @@ const clientSecret = 'xwlzSxWo0XJSHf7U/I1mAFjg7fv6NwxhaYvp8S5/HVkF4suX4Q';
 const host = 'https://id.b2b.yahooinc.com';
 const path = '/identity/oauth2/access_token';
 const realm = 'sagw';
-
+  
+// second
 const b64encode = (str: string): string => {
   return btoa(str).replace(/\+/g, '-').replace(/\//g, '_').replace(/=/g, '');
 };
